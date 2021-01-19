@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0; /*No margins and padding by default*/
+    box-sizing: inherit;
+}
+
+html {
+    // This defines what 1rem is and affects the entire project
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}

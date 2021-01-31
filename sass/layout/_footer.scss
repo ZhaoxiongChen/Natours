@@ -8,6 +8,12 @@
         padding: 8rem 0;
     }
 
+    &__logo-box {
+        @include respond(tab-port) {
+            margin-bottom: 6rem;
+        }
+    }
+
     &__logo {
         width: 15rem;
         height: auto;
